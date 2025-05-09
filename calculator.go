@@ -19,3 +19,8 @@ func Divide(a, b int) (c int) {
         return
 }
 
+func Modulo(a, b int) (c int) {
+        c = int(a % b)
+        return
+}
+
